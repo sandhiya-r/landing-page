@@ -29,3 +29,48 @@ a{
 }
 
 /*Hero Section*/
+.hero-section{
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:100px 200px;
+}
+.hero-content{
+    width:400px;
+    color:#E5E7EB;
+    font-size:18px;
+}
+h1{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FaF8;
+}
+.hero-section img{
+    width:400px;
+    height:auto;
+}
+
+/*Information*/
+.info-section{
+    padding: 50px;
+}
+.title{
+    color:#1F2937;
+    font-size:36px;
+    font-weight:900;
+    text-align: center;
+}
+.info-box{
+    width:200px;
+    height:200px;
+    border: 2px solid rgb(69, 98, 228);
+    border-radius:20px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:50px;
+}
