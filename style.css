@@ -6,12 +6,14 @@ body{
 }
 
 .dark-background{
-    background-color: #1F2937;
+    background-color: #F8EDE3;
 }
 
+.color-one{
+    color:#8D493A;
+}
 /*Styling for header section*/
 .header{
-    color:white;
     display:flex;
     font-weight:600;
     font-size:24px;
@@ -28,13 +30,12 @@ ul{
     padding-left:0px;
 }
 a{
-    color:white;
+    color:#8D493A;
     text-decoration: none;
 }
 
 /*Hero Section*/
 .hero-section{
-    color:white;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
@@ -42,17 +43,29 @@ a{
 }
 .hero-content{
     width:400px;
-    color:#E5E7EB;
     
 }
 h1{
     font-size:48px;
     font-weight:900;
-    color:#F9FaF8;
+    margin:0;
+}
+.hero-description{
+    padding-bottom:10px;
 }
 .hero-section img{
     width:400px;
     height:auto;
+}
+
+.hero-button{
+        background-color: #8D493A;
+        border: 2px solid white;
+        border-radius:8px;
+        padding: 10px 30px;
+        color:white;
+        font-weight:bold;
+    
 }
 
 /*Information*/
@@ -60,7 +73,7 @@ h1{
     padding: 50px;
 }
 .title{
-    color:#1F2937;
+    color:#D0B8A8;
     font-size:36px;
     font-weight:900;
     text-align: center;
@@ -68,7 +81,7 @@ h1{
 .info-box{
     width:200px;
     height:200px;
-    border: 2px solid rgb(69, 98, 228);
+    border: 2px solid #D0B8A8;
     border-radius:20px;
 }
 .container{
@@ -83,7 +96,7 @@ h1{
     display:flex;
     justify-content: center;
     align-items:center;
-    background-color: #E5E7EB;
+    background-color: #DFD3C3;
     padding:100px 200px;
 }
 
@@ -113,8 +126,8 @@ h1{
 }
 
 .cta-container{
-    background-color: #3882F6;
-    width:700px;
+    background-color: #8D493A;
+    width:800px;
     border-radius:10px;
     display:flex;
     align-items: center;
@@ -149,8 +162,7 @@ h1{
     display:flex;
     justify-content: center;
     align-items:center;
-    padding:20px;
-    color:white;
+    padding:25px;
 }
 
 .small-text{
