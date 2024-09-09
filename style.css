@@ -18,7 +18,7 @@ body{
     font-weight:600;
     font-size:24px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 200px;
 }
 
@@ -38,11 +38,12 @@ a{
 .hero-section{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:50px;
     padding:100px 200px;
 }
 .hero-content{
-    width:400px;
+    width:500px;
     
 }
 h1{
@@ -77,6 +78,15 @@ h1{
     font-size:36px;
     font-weight:900;
     text-align: center;
+    padding-bottom:40px;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    width:200px;
+    flex-wrap:wrap;
+    text-align: center;
+    gap:10px;
 }
 .info-box{
     width:200px;
@@ -87,7 +97,7 @@ h1{
 .container{
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items:baseline;
     gap:50px;
 }
 
@@ -114,7 +124,6 @@ h1{
 .quote-name{
     text-align:right;
     font-weight:bold;
-    color:#1F2937;
 }
 
 /*Call To Action Section*/
@@ -163,6 +172,7 @@ h1{
     justify-content: center;
     align-items:center;
     padding:25px;
+
 }
 
 .small-text{
